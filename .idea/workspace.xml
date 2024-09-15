@@ -4,18 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="" />
+    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/BDDStyleGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/BDDStylePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/NonBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/NoDesginPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases_RestfulBooker/GetBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases_RestfulBooker/GetBooking.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;neerupareek18&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/neerupareek18/APIAutomationRestAssured.git&quot;,
+    &quot;accountId&quot;: &quot;1d21fd9a-b671-42b6-8c4a-6d1c6b3fb2aa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2m3ARrTTfpLkcXtqNOnAc1rb07l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,12 +54,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BDDStyleGet.executor": "Run",
+    "Application.BDDStylePost.executor": "Run",
+    "Application.GetReq.executor": "Run",
+    "Application.NonBDD.executor": "Run",
+    "Application.NonBDDStyle.executor": "Run",
+    "Application.TC001.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

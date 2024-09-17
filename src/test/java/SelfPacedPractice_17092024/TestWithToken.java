@@ -27,4 +27,21 @@ public class TestWithToken {
                 .then().statusCode(201);
 
     }
+@Test
+    public void createUser1() {
+JSONObject data = new JSONObject();
+        data.put("name", "Neeru Pareek");
+        data.put("gender", "male");
+        data.put("email", "neeru1234@yopmail.com");
+        data.put("status","active");
+
+        String token = "455635bd00a783d2b3e9d82e7a7cf0a869a65d7e6e5d61c7494175ff9b2bb130";
+        given().relaxedHTTPSValidation()
+                .header("Authorization", "Bearer " + token)
+                .contentType(ContentType.JSON).body(data.toString())
+
+                .when().post("https://gorest.co.in/public/v2/users")
+                .then().statusCode(201);
+
+    }
 }

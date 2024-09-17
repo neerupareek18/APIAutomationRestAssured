@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="Added Get and Post BDD and NOn BDD Style">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Put/NonBDDStylePut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/TestNG/TC001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/TestNG/TC002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/CookiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/HeaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParseJSONPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParsingJSONObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" afterDir="false" />
+    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="SelfPacedPractice -- Cookies, Headers, Token, JSONObject and Path parsing">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/DifferentTypeLogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/NonBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/NonBDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +69,7 @@
     "TestNG.ParsingJSONObject.getAllBookings.executor": "Run",
     "TestNG.TC001.test_Get.executor": "Run",
     "TestNG.TestWithToken.createUser.executor": "Run",
+    "TestNG.TestWithToken.createUser1.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
@@ -87,25 +80,7 @@
       <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestWithToken.createUser">
-    <configuration name="CRUD.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.Restful_Booker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024.Restful_Booker" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.Restful_Booker.CRUD" />
-      <option name="METHOD_NAME" value="createToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestWithToken.createUser1">
     <configuration name="CRUD.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
@@ -178,13 +153,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestWithToken.createUser1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.TestWithToken" />
+      <option name="METHOD_NAME" value="createUser1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestWithToken.createUser1" />
         <item itemvalue="TestNG.TestWithToken.createUser" />
         <item itemvalue="TestNG.ParsingJSONObject.createUser" />
         <item itemvalue="TestNG.ParsingJSONObject.getAllBookings" />
         <item itemvalue="TestNG.CRUD.createUser" />
-        <item itemvalue="TestNG.CRUD.createToken" />
       </list>
     </recent_temporary>
   </component>
@@ -205,12 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726379071390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SelfPacedPractice -- Cookies, Headers, Token, JSONObject and Path parsing">
+      <option name="closed" value="true" />
+      <created>1726563060377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726563060378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Get and Post BDD and NOn BDD Style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Get and Post BDD and NOn BDD Style" />
+    <MESSAGE value="SelfPacedPractice -- Cookies, Headers, Token, JSONObject and Path parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelfPacedPractice -- Cookies, Headers, Token, JSONObject and Path parsing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

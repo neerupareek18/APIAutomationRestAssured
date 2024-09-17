@@ -3,6 +3,7 @@ package Ex15092024_CRUD.Post;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -25,11 +26,15 @@ public class NonBDD {
 
 //Making of Request
                 Response re = r.when().log().all().post();
+                ResponseBody rb = re.getBody();
 
-                //Validation of response
+
+      //Validation of response
 
       //ResponseSpecification rs = r.then(); -----This can also be used
         ValidatableResponse rs = re.then();
         rs.statusCode(200).log().all();
+
+//        System.out.println(rb.toString());
     }
 }

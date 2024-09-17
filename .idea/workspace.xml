@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/BDDStyleGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/BDDStylePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/NonBDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/NoDesginPattern.java" afterDir="false" />
+    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="Added Get and Post BDD and NOn BDD Style">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Put/NonBDDStylePut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/TestNG/TC001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/TestNG/TC002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/CookiesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/HeaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParseJSONPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParsingJSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases_RestfulBooker/GetBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases_RestfulBooker/GetBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/NonBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Post/NonBDD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +64,129 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CRUD.createToken.executor": "Run",
+    "TestNG.CRUD.createUser.executor": "Run",
+    "TestNG.CookiesDemo.verifyCookieExistence.executor": "Run",
+    "TestNG.CookiesDemo.verifySingleCookieValue.executor": "Run",
+    "TestNG.CreateToken.createToken.executor": "Run",
+    "TestNG.HeaderDemo.getAllHeaders.executor": "Coverage",
+    "TestNG.HeaderDemo.verifyHeaderValue.executor": "Coverage",
+    "TestNG.NonBDDStylePut.executor": "Run",
+    "TestNG.NonBDDStylePut.put.executor": "Run",
+    "TestNG.ParsingJSONObject.createUser.executor": "Run",
+    "TestNG.ParsingJSONObject.getAllBookings.executor": "Run",
+    "TestNG.TC001.test_Get.executor": "Run",
+    "TestNG.TestWithToken.createUser.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestWithToken.createUser">
+    <configuration name="CRUD.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.Restful_Booker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024.Restful_Booker" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.Restful_Booker.CRUD" />
+      <option name="METHOD_NAME" value="createToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUD.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.Restful_Booker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024.Restful_Booker" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.Restful_Booker.CRUD" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParsingJSONObject.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ParsingJSONObject" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParsingJSONObject.getAllBookings" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ParsingJSONObject" />
+      <option name="METHOD_NAME" value="getAllBookings" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWithToken.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.TestWithToken" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestWithToken.createUser" />
+        <item itemvalue="TestNG.ParsingJSONObject.createUser" />
+        <item itemvalue="TestNG.ParsingJSONObject.getAllBookings" />
+        <item itemvalue="TestNG.CRUD.createUser" />
+        <item itemvalue="TestNG.CRUD.createToken" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +197,51 @@
       <option name="presentableId" value="Default" />
       <updated>1726294883645</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Get and Post BDD and NOn BDD Style">
+      <option name="closed" value="true" />
+      <created>1726379071390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726379071390</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Get and Post BDD and NOn BDD Style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Get and Post BDD and NOn BDD Style" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/Restful_Booker/CRUD.java</url>
+          <line>15</line>
+          <properties class="SelfPacedPractice_17092024.Restful_Booker.CRUD" method="createToken">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/APIAutomationRestAssured$HeaderDemo_verifyHeaderValue.ic" NAME="HeaderDemo.verifyHeaderValue Coverage Results" MODIFIED="1726557497655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>SelfPacedPractice_17092024.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/APIAutomationRestAssured$NonBDD.ic" NAME="NonBDD Coverage Results" MODIFIED="1726478231281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Ex15092024_CRUD.Post.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/APIAutomationRestAssured$NonBDDStylePut_put.ic" NAME="NonBDDStylePut.put Coverage Results" MODIFIED="1726477570577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Ex15092024_CRUD.Put.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/APIAutomationRestAssured$CreateToken_createToken.ic" NAME="CreateToken.createToken Coverage Results" MODIFIED="1726559927577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>SelfPacedPractice_17092024.Restful_Booker.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/APIAutomationRestAssured$HeaderDemo_getAllHeaders.ic" NAME="HeaderDemo.getAllHeaders Coverage Results" MODIFIED="1726557334579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>SelfPacedPractice.*</FILTER>
+    </SUITE>
   </component>
 </project>

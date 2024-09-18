@@ -21,11 +21,14 @@ public class ParsingJSONObject {
         hm.put("username", "admin");
         hm.put("password", "password123");
 
+        JSONObject data1 = new JSONObject();
+        data1.put("username", "admin");
+        data1.put("password", "password123");
+
         String payload = "{\n" +
                 "    \"username\" : \"admin\",\n" +
                 "    \"password\" : \"password123\"\n" +
                 "}";
-
         Response res = given().relaxedHTTPSValidation().contentType(ContentType.JSON).body(payload)
                 .when().post("https://restful-booker.herokuapp.com/auth");
 
@@ -50,7 +53,7 @@ public class ParsingJSONObject {
                 "    \"additionalneeds\" : \"Dinner\"\n" +
                 "}";
 
-        given().relaxedHTTPSValidation().header("Authorization", "Bearer "+token1)
+        given().relaxedHTTPSValidation().header("Authorization", "Bearer "+token1).body(req)
                 .when().post("https://restful-booker.herokuapp.com/booking")
                 .then().statusCode(200);
 

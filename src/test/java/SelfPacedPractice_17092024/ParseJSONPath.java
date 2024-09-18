@@ -15,6 +15,7 @@ public class ParseJSONPath {
                 .when().get("https://restful-booker.herokuapp.com/booking");
 
         System.out.println(res.asString());
+
         JsonPath data = res.jsonPath();
         ArrayList<Integer> l = new ArrayList<>(data.get("bookingid"));
 

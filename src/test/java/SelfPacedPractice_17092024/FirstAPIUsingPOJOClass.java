@@ -14,7 +14,7 @@ public class FirstAPIUsingPOJOClass {
         p.setJob("QA");
 
        given().relaxedHTTPSValidation()
-                .contentType("ContentType.JSON").body(p)
+                .contentType("application/json").body(p)
                 .when().post("https://reqres.in/api/users");
                 //.jsonPath().getInt("id");
 

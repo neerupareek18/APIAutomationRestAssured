@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="Logs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/POJOClass.java" afterDir="false" />
+    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="POJOClass">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/PracticeFiles/NonBdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/NonBDDStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParseJSONPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParseJSONPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParsingJSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParsingJSONObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParsingJSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ExJSONObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +54,11 @@
   "keyToString": {
     "Application.BDDStyleGet.executor": "Run",
     "Application.BDDStylePost.executor": "Run",
+    "Application.Ex15092024_CRUD.PracticeFiles.NonBdd.executor": "Run",
     "Application.GetReq.executor": "Run",
     "Application.NonBDD.executor": "Run",
     "Application.NonBDDStyle.executor": "Run",
+    "Application.NonBdd.executor": "Run",
     "Application.TC001.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,13 +68,16 @@
     "TestNG.CookiesDemo.verifyCookieExistence.executor": "Run",
     "TestNG.CookiesDemo.verifySingleCookieValue.executor": "Run",
     "TestNG.CreateToken.createToken.executor": "Run",
+    "TestNG.ExJSONObject.createToken.executor": "Run",
     "TestNG.FirstAPIUsingPOJOClass.createUser.executor": "Run",
     "TestNG.HeaderDemo.getAllHeaders.executor": "Coverage",
     "TestNG.HeaderDemo.verifyHeaderValue.executor": "Coverage",
     "TestNG.NonBDDStylePut.executor": "Run",
     "TestNG.NonBDDStylePut.put.executor": "Run",
+    "TestNG.ParseJSONPath.getAllBookings.executor": "Run",
     "TestNG.ParsingJSONObject.createToken.executor": "Run",
     "TestNG.ParsingJSONObject.createUser.executor": "Run",
+    "TestNG.ParsingJSONObject.executor": "Run",
     "TestNG.ParsingJSONObject.getAllBookings.executor": "Run",
     "TestNG.TC001.test_Get.executor": "Run",
     "TestNG.TestWithToken.createUser.executor": "Run",
@@ -85,6 +93,24 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.FirstAPIUsingPOJOClass.createUser">
+    <configuration name="ExJSONObject.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ExJSONObject" />
+      <option name="METHOD_NAME" value="createToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstAPIUsingPOJOClass.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
@@ -97,6 +123,23 @@
       <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.FirstAPIUsingPOJOClass" />
       <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParsingJSONObject" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ParsingJSONObject" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,49 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWithToken.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.TestWithToken" />
-      <option name="METHOD_NAME" value="createUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWithToken.createUser1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.TestWithToken" />
-      <option name="METHOD_NAME" value="createUser1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.FirstAPIUsingPOJOClass.createUser" />
-        <item itemvalue="TestNG.ParsingJSONObject.createUser" />
+        <item itemvalue="TestNG.ExJSONObject.createToken" />
         <item itemvalue="TestNG.ParsingJSONObject.createToken" />
-        <item itemvalue="TestNG.TestWithToken.createUser1" />
-        <item itemvalue="TestNG.TestWithToken.createUser" />
+        <item itemvalue="TestNG.ParsingJSONObject" />
+        <item itemvalue="TestNG.ParsingJSONObject.createUser" />
       </list>
     </recent_temporary>
   </component>
@@ -218,14 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726563961559</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="POJOClass">
+      <option name="closed" value="true" />
+      <created>1726640781734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726640781737</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Get and Post BDD and NOn BDD Style" />
     <MESSAGE value="SelfPacedPractice -- Cookies, Headers, Token, JSONObject and Path parsing" />
     <MESSAGE value="Logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logs" />
+    <MESSAGE value="POJOClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="POJOClass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

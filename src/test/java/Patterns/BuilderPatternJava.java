@@ -1,10 +1,13 @@
 package Patterns;
 
+import org.testng.annotations.Test;
+
 public class BuilderPatternJava {
     public BuilderPatternJava Stage1(){
         System.out.println("Stage 1");
         return this;
     }
+
     public BuilderPatternJava Stage2(String name){
         System.out.println("Satge 2");
         return this;

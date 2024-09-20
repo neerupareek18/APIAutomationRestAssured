@@ -17,16 +17,16 @@ public class NonBDDStyle {
     }
 
     private static void test1(){
-        rs.basePath("/IN/560037");
+        rs.basePath("/IN/500034");
         rs.relaxedHTTPSValidation();
         rs.when().get();
-        rs.then().statusCode(200);
+        rs.then().log().all().statusCode(200);
     }
 
     private static void test2(){
         rs.basePath("/IN/-1");
         rs.relaxedHTTPSValidation(); //to ignore SSL Certifcation issue
         rs.when().get();
-        rs.then().statusCode(200);
+        rs.then().log().all().statusCode(404);
     }
 }

@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="POJOClass">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/PracticeFiles/NonBdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/GetUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/RestFulBooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024_CRUD/TestNGEx/TestNG01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Get/NonBDDStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParseJSONPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParseJSONPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ParsingJSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/ExJSONObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/PracticeFiles/NonBdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/TestNG/TC002.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Patterns/BuilderPatternJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Patterns/NoDesginPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Patterns/NoDesginPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases_RestfulBooker/GetBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +68,16 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
     "TestNG.CRUD.createToken.executor": "Run",
     "TestNG.CRUD.createUser.executor": "Run",
     "TestNG.CookiesDemo.verifyCookieExistence.executor": "Run",
     "TestNG.CookiesDemo.verifySingleCookieValue.executor": "Run",
     "TestNG.CreateToken.createToken.executor": "Run",
+    "TestNG.CreateUser.getAllUsers.executor": "Run",
     "TestNG.ExJSONObject.createToken.executor": "Run",
     "TestNG.FirstAPIUsingPOJOClass.createUser.executor": "Run",
+    "TestNG.GetUserDetails.getUseDetails.executor": "Run",
     "TestNG.HeaderDemo.getAllHeaders.executor": "Coverage",
     "TestNG.HeaderDemo.verifyHeaderValue.executor": "Coverage",
     "TestNG.NonBDDStylePut.executor": "Run",
@@ -79,48 +87,51 @@
     "TestNG.ParsingJSONObject.createUser.executor": "Run",
     "TestNG.ParsingJSONObject.executor": "Run",
     "TestNG.ParsingJSONObject.getAllBookings.executor": "Run",
+    "TestNG.ReqResAPI.createUser.executor": "Run",
+    "TestNG.ReqResAPI.getAllUsers.executor": "Run",
+    "TestNG.RestFulBooker.createBooking.executor": "Run",
+    "TestNG.RestFulBooker.executor": "Run",
+    "TestNG.RestFulBooker.getBookingDetails.executor": "Run",
+    "TestNG.RestFulBooker.getToken.executor": "Run",
+    "TestNG.RestFulBooker.updateBooking.executor": "Run",
     "TestNG.TC001.test_Get.executor": "Run",
     "TestNG.TestWithToken.createUser.executor": "Run",
     "TestNG.TestWithToken.createUser1.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstAPIUsingPOJOClass.createUser">
-    <configuration name="ExJSONObject.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GetUserDetails.getUseDetails">
+    <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ExJSONObject" />
-      <option name="METHOD_NAME" value="createToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstAPIUsingPOJOClass.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUser.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="PATTERN" value="APIChaining_Assignment21092024.ReqResAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.FirstAPIUsingPOJOClass" />
+      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024" />
+      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.ReqResAPI.CreateUser" />
       <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -129,34 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParsingJSONObject" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUser.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="PATTERN" value="APIChaining_Assignment21092024.ReqResAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ParsingJSONObject" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParsingJSONObject.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ParsingJSONObject" />
-      <option name="METHOD_NAME" value="createToken" />
+      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024" />
+      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.ReqResAPI.CreateUser" />
+      <option name="METHOD_NAME" value="getAllUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,17 +158,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParsingJSONObject.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetUserDetails.getUseDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelfPacedPractice_17092024.*" />
+          <option name="PATTERN" value="APIChaining_Assignment21092024.ReqResAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SelfPacedPractice_17092024" />
-      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_17092024.ParsingJSONObject" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024.ReqResAPI" />
+      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.ReqResAPI.GetUserDetails" />
+      <option name="METHOD_NAME" value="getUseDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestFulBooker.getBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIChaining_Assignment21092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024" />
+      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.RestFulBooker" />
+      <option name="METHOD_NAME" value="getBookingDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -184,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstAPIUsingPOJOClass.createUser" />
-        <item itemvalue="TestNG.ExJSONObject.createToken" />
-        <item itemvalue="TestNG.ParsingJSONObject.createToken" />
-        <item itemvalue="TestNG.ParsingJSONObject" />
-        <item itemvalue="TestNG.ParsingJSONObject.createUser" />
+        <item itemvalue="TestNG.GetUserDetails.getUseDetails" />
+        <item itemvalue="TestNG.CreateUser.getAllUsers" />
+        <item itemvalue="TestNG.RestFulBooker.getBookingDetails" />
+        <item itemvalue="TestNG.CreateUser.createUser" />
+        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +261,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/Restful_Booker/CRUD.java</url>
           <line>15</line>
-          <properties class="SelfPacedPractice_17092024.Restful_Booker.CRUD" method="createToken">
+          <properties class="SelfPacedPractice_17092024.Restful_Booker.CRUD">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/src/test/java/Patterns">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/src/test/java/APIChaining_Assignment21092024">
         <classes>
-        <class name="Patterns.BuilderPatternJava">
-            <methods>
-                <include name="Stage2"/>
-            </methods>
-        </class>
-        </classes>
-    </test>
-</suite>
+<!--            <class name="APIChaining_Assignment21092024.ReqResAPI.CreateUser">-->
+<!--                <methods>-->
+<!--                    <include name="getAllUsers"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="APIChaining_Assignment21092024.RestFulBooker">
+                <methods>
+                    <include name="getToken"/>
+                    <include name="createBooking"/>
+
+                    <include name="updateBooking"/>
+                    <include name="deleteBooking"/>
+<!--                    <include name="deleteBooking"/>-->
+</methods>
+            </class>
+        </classes></test></suite>

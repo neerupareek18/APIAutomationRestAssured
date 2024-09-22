@@ -19,7 +19,7 @@ public class TestWithToken {
         hm.put("status", "active");
 
         String token = "808a2bc2eb9e8131dae29763db501fa07384201c55087828373ba6f51f175f5b";
-        given()
+        given().relaxedHTTPSValidation()
                 .header("Authorization", "Bearer " + token)
                 .contentType("application/json").body(hm)
 
@@ -35,7 +35,7 @@ JSONObject data = new JSONObject();
         data.put("email", "neeru1234@yopmail.com");
         data.put("status","active");
 
-        String token = "455635bd00a783d2b3e9d82e7a7cf0a869a65d7e6e5d61c7494175ff9b2bb130";
+        String token = "808a2bc2eb9e8131dae29763db501fa07384201c55087828373ba6f51f175f5b";
         given().relaxedHTTPSValidation()
                 .header("Authorization", "Bearer " + token)
                 .contentType(ContentType.JSON).body(data.toString())

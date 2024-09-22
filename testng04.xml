@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APIAutomationRestAssured-TestNGEx">
+        <groups>
+            <run>
+                <include name="qa"/>
+                <exclude name="reg"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Ex21092024.TestNGEx.TestNG004">
+            </class>
+        </classes></test></suite>

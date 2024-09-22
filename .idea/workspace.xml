@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="POJOClass">
-      <change afterPath="$PROJECT_DIR$/data2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/CreateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/GetUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/RestFulBooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024_CRUD/TestNGEx/TestNG01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/APIChainingDifferentClasses/GetToken_CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/APIChainingDifferentClasses/PatchUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/HemcrestAssertions_NotWorking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions_ParametersNotFetching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG006_NotWorking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng06.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/PracticeFiles/NonBdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/TestNG/TC002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Patterns/BuilderPatternJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Patterns/BuilderPatternJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Patterns/NoDesginPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex15092024_CRUD/Patterns/NoDesginPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases_RestfulBooker/GetBooking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/CreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/GetUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/ReqResAPI/GetUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024_CRUD/TestNGEx/TestNG01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/FirstAPIUsingPOJOClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_17092024/TestWithToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +78,11 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AssertJ_FluentAssertion.test_post.executor": "Run",
     "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
+    "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml.executor": "Run",
+    "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng06.xml.executor": "Run",
+    "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng_Ex.xml.executor": "Run",
     "TestNG.CRUD.createToken.executor": "Run",
     "TestNG.CRUD.createUser.executor": "Run",
     "TestNG.CookiesDemo.verifyCookieExistence.executor": "Run",
@@ -77,6 +91,8 @@
     "TestNG.CreateUser.getAllUsers.executor": "Run",
     "TestNG.ExJSONObject.createToken.executor": "Run",
     "TestNG.FirstAPIUsingPOJOClass.createUser.executor": "Run",
+    "TestNG.GetToken.getToken.executor": "Run",
+    "TestNG.GetToken_CreateUser.createBooking.executor": "Run",
     "TestNG.GetUserDetails.getUseDetails.executor": "Run",
     "TestNG.HeaderDemo.getAllHeaders.executor": "Coverage",
     "TestNG.HeaderDemo.verifyHeaderValue.executor": "Coverage",
@@ -87,6 +103,7 @@
     "TestNG.ParsingJSONObject.createUser.executor": "Run",
     "TestNG.ParsingJSONObject.executor": "Run",
     "TestNG.ParsingJSONObject.getAllBookings.executor": "Run",
+    "TestNG.PatchUserDetails.patchUserDetails.executor": "Run",
     "TestNG.ReqResAPI.createUser.executor": "Run",
     "TestNG.ReqResAPI.getAllUsers.executor": "Run",
     "TestNG.RestFulBooker.createBooking.executor": "Run",
@@ -94,7 +111,15 @@
     "TestNG.RestFulBooker.getBookingDetails.executor": "Run",
     "TestNG.RestFulBooker.getToken.executor": "Run",
     "TestNG.RestFulBooker.updateBooking.executor": "Run",
+    "TestNG.SoftHardAssertions.executor": "Run",
+    "TestNG.SoftHardAssertions_ParametersNotFetching.TC002.executor": "Run",
     "TestNG.TC001.test_Get.executor": "Run",
+    "TestNG.TestNG003.executor": "Run",
+    "TestNG.TestNG006.broswerStart.executor": "Run",
+    "TestNG.TestNG006.startBrowser.executor": "Run",
+    "TestNG.TestNG007.executor": "Run",
+    "TestNG.TestNG007.getBookingId.executor": "Run",
+    "TestNG.TestNG008.TC01.executor": "Run",
     "TestNG.TestWithToken.createUser.executor": "Run",
     "TestNG.TestWithToken.createUser1.executor": "Run",
     "git-widget-placeholder": "master",
@@ -110,29 +135,22 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ex21092024.TestNGEx" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetUserDetails.getUseDetails">
-    <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateUser.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AssertJ_FluentAssertion.test_post">
+    <configuration name="AssertJ_FluentAssertion.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APIChaining_Assignment21092024.ReqResAPI.*" />
+          <option name="PATTERN" value="Ex21092024.Assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024" />
-      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.ReqResAPI.CreateUser" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="PACKAGE_NAME" value="Ex21092024.Assertions" />
+      <option name="MAIN_CLASS_NAME" value="Ex21092024.Assertions.AssertJ_FluentAssertion" />
+      <option name="METHOD_NAME" value="test_post" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,17 +158,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUser.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftHardAssertions_ParametersNotFetching" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APIChaining_Assignment21092024.ReqResAPI.*" />
+          <option name="PATTERN" value="Ex21092024.Assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024" />
-      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.ReqResAPI.CreateUser" />
-      <option name="METHOD_NAME" value="getAllUsers" />
+      <option name="PACKAGE_NAME" value="Ex21092024.Assertions" />
+      <option name="MAIN_CLASS_NAME" value="Ex21092024.Assertions.SoftHardAssertions_ParametersNotFetching" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftHardAssertions_ParametersNotFetching.TC002" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex21092024.Assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex21092024.Assertions" />
+      <option name="MAIN_CLASS_NAME" value="Ex21092024.Assertions.SoftHardAssertions_ParametersNotFetching" />
+      <option name="METHOD_NAME" value="TC002" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,17 +193,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetUserDetails.getUseDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG007.getBookingId" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APIChaining_Assignment21092024.ReqResAPI.*" />
+          <option name="PATTERN" value="Ex21092024.TestNGEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024.ReqResAPI" />
-      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.ReqResAPI.GetUserDetails" />
-      <option name="METHOD_NAME" value="getUseDetails" />
+      <option name="PACKAGE_NAME" value="Ex21092024.TestNGEx" />
+      <option name="MAIN_CLASS_NAME" value="Ex21092024.TestNGEx.TestNG007" />
+      <option name="METHOD_NAME" value="getBookingId" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,17 +211,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestFulBooker.getBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG008.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="APIChaining_Assignment21092024.*" />
+          <option name="PATTERN" value="Ex21092024.TestNGEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="APIChaining_Assignment21092024" />
-      <option name="MAIN_CLASS_NAME" value="APIChaining_Assignment21092024.RestFulBooker" />
-      <option name="METHOD_NAME" value="getBookingDetails" />
+      <option name="PACKAGE_NAME" value="Ex21092024.TestNGEx" />
+      <option name="MAIN_CLASS_NAME" value="Ex21092024.TestNGEx.TestNG008" />
+      <option name="METHOD_NAME" value="TC01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -196,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetUserDetails.getUseDetails" />
-        <item itemvalue="TestNG.CreateUser.getAllUsers" />
-        <item itemvalue="TestNG.RestFulBooker.getBookingDetails" />
-        <item itemvalue="TestNG.CreateUser.createUser" />
-        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" />
+        <item itemvalue="TestNG.AssertJ_FluentAssertion.test_post" />
+        <item itemvalue="TestNG.SoftHardAssertions_ParametersNotFetching.TC002" />
+        <item itemvalue="TestNG.SoftHardAssertions_ParametersNotFetching" />
+        <item itemvalue="TestNG.TestNG008.TC01" />
+        <item itemvalue="TestNG.TestNG007.getBookingId" />
       </list>
     </recent_temporary>
   </component>

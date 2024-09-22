@@ -19,6 +19,9 @@ public class CreateUser {
         int tp = res.jsonPath().getInt("total_pages");
         int ppr = res.jsonPath().getInt("per_page");
 
+        totalpages.setAttribute("tp1", tp);
+        perpagerecords.setAttribute("ppr1",ppr);
+
         System.out.println(tp);
         System.out.println(ppr);
 
@@ -36,8 +39,7 @@ public class CreateUser {
                 System.out.println(hm.get(key));
             }
         }
-        totalpages.setAttribute("tp1", tp);
-        perpagerecords.setAttribute("ppr1",ppr);
+
 
 
     }

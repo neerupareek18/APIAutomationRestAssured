@@ -5,6 +5,10 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.*;
 
 import static io.restassured.RestAssured.given;
@@ -49,6 +53,11 @@ public class AssertJ_FluentAssertion {
 
     assertThat(s).isEmpty();
     assertThat(s1).isNotEmpty().asString();
+
+
+    List l = Arrays.asList("Joe", "John", "Dale");
+    assertThat(l).hasSize(3).isNotEmpty();
+
 
         //No need to add the Hamcrest dependency now, just the library is present, import the package
 

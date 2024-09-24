@@ -4,7 +4,7 @@ public class BookingPojo {
     String firstname;
     String lastname;
     Integer totalprice;
-    Boolean depositepaid;
+    Boolean depositpaid;
     String additionalneeds;
     BookingDatesPojo bookingdates;
 
@@ -32,12 +32,12 @@ public class BookingPojo {
         this.totalprice = totalprice;
     }
 
-    public Boolean getDepositepaid() {
-        return depositepaid;
+    public Boolean getDepositpaid() {
+        return depositpaid;
     }
 
-    public void setDepositepaid(Boolean depositepaid) {
-        this.depositepaid = depositepaid;
+    public void setDepositpaid(Boolean depositpaid) {
+        this.depositpaid = depositpaid;
     }
 
     public String getAdditionalneeds() {

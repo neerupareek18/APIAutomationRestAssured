@@ -17,4 +17,6 @@
 <!--                    <include name="deleteBooking"/>-->
 </methods>
             </class>
-        </classes></test></suite>
+        </classes>
+    </test>
+</suite>

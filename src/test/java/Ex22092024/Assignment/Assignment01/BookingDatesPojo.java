@@ -1,23 +1,23 @@
 package Ex22092024.Assignment.Assignment01;
 
 public class BookingDatesPojo {
-    String checkindate;
-    String checkoutdate;
+    String checkin;
+    String checkout;
 
-    public String getCheckindate() {
-        return checkindate;
+    public String getCheckin() {
+        return checkin;
     }
 
-    public void setCheckindate(String checkindate) {
-        this.checkindate = checkindate;
+    public void setCheckin(String checkin) {
+        this.checkin = checkin;
     }
 
-    public String getCheckoutdate() {
-        return checkoutdate;
+    public String getCheckout() {
+        return checkout;
     }
 
-    public void setCheckoutdate(String checkoutdate) {
-        this.checkoutdate = checkoutdate;
+    public void setCheckout(String checkout) {
+        this.checkout = checkout;
     }
 
 

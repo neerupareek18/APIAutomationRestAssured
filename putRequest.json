@@ -1,0 +1,11 @@
+{
+  "firstname":"Federico",
+  "lastname":"Considine",
+  "totalprice":110,
+  "depositpaid":true,
+  "additionalneeds":"Spelt",
+  "bookingdates":
+  {"checkin":"2024-09-28",
+    "checkout":"2024-10-01"
+  }
+}

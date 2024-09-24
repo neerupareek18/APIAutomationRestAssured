@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="POJOClass">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingDatesPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/CreateBookingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/TokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/Hashmap/RequestWithHashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/PojoClasses/POJOClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/PojoClasses/Pojo2Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/PojoClasses/UseOfPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Verification01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patchRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/putRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingDetails_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/DeleteBooking_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingDetailsAfterDelete_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/UpdateBookingAfterDelete_06_NotWorking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment03/GetBookingId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingDatesPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/CreateBookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/CreateBookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +87,12 @@
     "TestNG.CreateUser.getAllUsers.executor": "Run",
     "TestNG.ExJSONObject.createToken.executor": "Run",
     "TestNG.FirstAPIUsingPOJOClass.createUser.executor": "Run",
+    "TestNG.GetAllBookings.getAllBookings.executor": "Run",
+    "TestNG.GetAllBookings.patchBooking.executor": "Run",
+    "TestNG.GetBookingDetails.getBookingDetails.executor": "Run",
+    "TestNG.GetBookingDetailsAfterDelete.getBookingDetailsAfterDelete.executor": "Run",
+    "TestNG.GetBookingDetails_01.getBookingDetails.executor": "Run",
+    "TestNG.GetBookingId.createBooking.executor": "Run",
     "TestNG.GetToken.getToken.executor": "Run",
     "TestNG.GetToken_CreateUser.createBooking.executor": "Run",
     "TestNG.GetUserDetails.getUseDetails.executor": "Run",
@@ -97,6 +105,10 @@
     "TestNG.ParsingJSONObject.createUser.executor": "Run",
     "TestNG.ParsingJSONObject.executor": "Run",
     "TestNG.ParsingJSONObject.getAllBookings.executor": "Run",
+    "TestNG.PatchBookingDetails.patchBooking.executor": "Run",
+    "TestNG.PatchBookingDetails_03_NotWorking.executor": "Run",
+    "TestNG.PatchBookingDetails_03_NotWorking.getBookingDetailsAfterPatch.executor": "Run",
+    "TestNG.PatchBookingDetails_03_NotWorking.patchBooking.executor": "Debug",
     "TestNG.PatchUserDetails.patchUserDetails.executor": "Run",
     "TestNG.ReqResAPI.createUser.executor": "Run",
     "TestNG.ReqResAPI.getAllUsers.executor": "Run",
@@ -116,6 +128,7 @@
     "TestNG.TestNG008.TC01.executor": "Run",
     "TestNG.TestWithToken.createUser.executor": "Run",
     "TestNG.TestWithToken.createUser1.executor": "Run",
+    "TestNG.UpdateBookingAfterDelete_06.updateBookingAfterDelete.executor": "Run",
     "TestNG.Verification01.verify_Date.executor": "Debug",
     "TestNG.Verification01.verify_File.executor": "Run",
     "git-widget-placeholder": "master",
@@ -132,50 +145,13 @@
       <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ex22092024.Assignment.Assignment03" />
+      <recent name="Ex22092024.Assignment.Assignment02" />
       <recent name="Ex21092024.TestNGEx" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateBookingRequest.bookingRequest">
-    <configuration name="FakerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment01.FakerDemo" />
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestWithHashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.Hashmap.RequestWithHashmap" />
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex22092024.SelfPaced.Hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseOfPojo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.PojoClasses.UseOfPojo" />
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex22092024.SelfPaced.PojoClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateBookingRequest.bookingRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GetBookingDetails_01_NotWorking.getBookingDetails">
+    <configuration name="GetBookingDetails_01_NotWorking.getBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -184,8 +160,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment01" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment01.CreateBookingRequest" />
-      <option name="METHOD_NAME" value="bookingRequest" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment01.GetBookingDetails_01_NotWorking" />
+      <option name="METHOD_NAME" value="getBookingDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -193,17 +169,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetToken.getToken" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PatchBookingDetails_03_NotWorking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment01.*" />
+          <option name="PATTERN" value="Ex22092024.Assignment.Assignment03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment01" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment01.GetToken" />
-      <option name="METHOD_NAME" value="getToken" />
+      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment03" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment03.PatchBookingDetails_03_NotWorking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatchBookingDetails_03_NotWorking.getBookingDetailsAfterPatch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex22092024.Assignment.Assignment03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment03" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment03.PatchBookingDetails_03_NotWorking" />
+      <option name="METHOD_NAME" value="getBookingDetailsAfterPatch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatchBookingDetails_03_NotWorking.patchBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex22092024.Assignment.Assignment03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment03" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment03.PatchBookingDetails_03_NotWorking" />
+      <option name="METHOD_NAME" value="patchBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateBookingAfterDelete_06_NotWorking.updateBookingAfterDelete" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex22092024.Assignment.Assignment0246.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment0246" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment0246.UpdateBookingAfterDelete_06_NotWorking" />
+      <option name="METHOD_NAME" value="updateBookingAfterDelete" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -213,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateBookingRequest.bookingRequest" />
-        <item itemvalue="Application.FakerDemo" />
-        <item itemvalue="TestNG.GetToken.getToken" />
-        <item itemvalue="Application.RequestWithHashmap" />
-        <item itemvalue="Application.UseOfPojo" />
+        <item itemvalue="TestNG.GetBookingDetails_01_NotWorking.getBookingDetails" />
+        <item itemvalue="TestNG.PatchBookingDetails_03_NotWorking" />
+        <item itemvalue="TestNG.PatchBookingDetails_03_NotWorking.getBookingDetailsAfterPatch" />
+        <item itemvalue="TestNG.UpdateBookingAfterDelete_06_NotWorking.updateBookingAfterDelete" />
+        <item itemvalue="TestNG.PatchBookingDetails_03_NotWorking.patchBooking" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +312,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/CreateBookingRequest.java</url>
+          <line>11</line>
+          <properties class="Ex22092024.Assignment.Assignment01.CreateBookingRequest" method="bookingRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

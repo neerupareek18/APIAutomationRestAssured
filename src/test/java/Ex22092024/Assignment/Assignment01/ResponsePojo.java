@@ -1,7 +1,8 @@
 package Ex22092024.Assignment.Assignment01;
 
 public class ResponsePojo {
-    String bookingid;
+    private String bookingid;
+    private CreateBookingRequest booking;
 
     public CreateBookingRequest getBooking() {
         return booking;
@@ -19,7 +20,7 @@ public class ResponsePojo {
         this.bookingid = bookingid;
     }
 
-    CreateBookingRequest booking;
+
 
 
 }

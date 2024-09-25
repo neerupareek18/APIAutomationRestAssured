@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
 
+import static org.assertj.core.api.Assertions.*;
 import static io.restassured.RestAssured.given;
 
 public class AssertJ_FluentAssertion {
@@ -50,6 +50,8 @@ public class AssertJ_FluentAssertion {
 
     String s =""; //Empty
     String s1 = " "; //Blank
+    String s2 = "Neeru";
+    Boolean b = true;
 
     assertThat(s).isEmpty();
     assertThat(s1).isNotEmpty().asString();

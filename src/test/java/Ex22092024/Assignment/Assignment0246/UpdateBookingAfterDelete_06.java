@@ -15,7 +15,7 @@ import java.io.FileReader;
 
 //Trying to Update on a Delete Id -> 404
 
-public class UpdateBookingAfterDelete_06_NotWorking {
+public class UpdateBookingAfterDelete_06 {
     RequestSpecification rs = RestAssured.given().relaxedHTTPSValidation();
     Response r;
     ValidatableResponse vr;
@@ -29,7 +29,7 @@ public class UpdateBookingAfterDelete_06_NotWorking {
         String bookingId = db.deleteBooking();
 
         File f = new File(".\\putRequest.json");
-FileReader fr = new FileReader(f);
+        FileReader fr = new FileReader(f);
         JSONTokener jt = new JSONTokener(fr);
         JSONObject payload = new JSONObject(jt);
         System.out.println(payload.toString());
@@ -41,6 +41,6 @@ FileReader fr = new FileReader(f);
         rs.body(payload);
 
         r = rs.when().put();
-        vr = r.then().statusCode(405);
+        vr = r.then().statusCode(400);
     }
 }

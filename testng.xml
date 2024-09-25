@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/src/test/java/APIChaining_Assignment21092024">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/src/test/java/Ex22092024/SelfPaced/UsingIText">
         <classes>
-<!--            <class name="APIChaining_Assignment21092024.ReqResAPI.CreateUser">-->
-<!--                <methods>-->
-<!--                    <include name="getAllUsers"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-            <class name="APIChaining_Assignment21092024.RestFulBooker">
+            <class name="Ex22092024.SelfPaced.UsingIText.GetBookingId">
                 <methods>
-                    <include name="getToken"/>
                     <include name="createBooking"/>
-
-                    <include name="updateBooking"/>
-                    <include name="deleteBooking"/>
-<!--                    <include name="deleteBooking"/>-->
-</methods>
+                </methods>
             </class>
+            <class name="Ex22092024.SelfPaced.UsingIText.GetBookingDetails">
+                <methods>
+                    <include name="getBookingDetails"/>
+                </methods></class>
         </classes>
     </test>
 </suite>

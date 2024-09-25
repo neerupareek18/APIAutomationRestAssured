@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 //Get an Existing Booking from Get All Bookings Ids , Update a Booking and Verify using GET by id. 
 
-public class PatchBookingDetails_03_NotWorking {
+public class PatchBookingDetails_03 {
     RequestSpecification rs = RestAssured.given().relaxedHTTPSValidation();
     Response r;
     ValidatableResponse vr;

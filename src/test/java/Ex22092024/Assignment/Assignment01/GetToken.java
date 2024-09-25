@@ -8,6 +8,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 import java.util.HashMap;
 
@@ -42,6 +43,7 @@ public class GetToken {
 
         String token = r.body().jsonPath().getString("token");
         System.out.println(token);
+
 
         return token;
 

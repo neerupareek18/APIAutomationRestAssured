@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="POJOClass">
-      <change afterPath="$PROJECT_DIR$/patchRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/putRequest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingDetails_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/DeleteBooking_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingDetailsAfterDelete_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/UpdateBookingAfterDelete_06_NotWorking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment03/GetBookingId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingDatesPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/BookingPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/CreateBookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/CreateBookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/putRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/putRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions_ParametersNotFetching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions_ParametersNotFetching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG006_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG006_NotWorking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingDetails_01_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/UpdateBookingAfterDelete_06_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/UpdateBookingAfterDelete_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment03/PatchBookingDetails_03_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment03/PatchBookingDetails_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng06.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +95,7 @@
     "TestNG.GetBookingDetails.getBookingDetails.executor": "Run",
     "TestNG.GetBookingDetailsAfterDelete.getBookingDetailsAfterDelete.executor": "Run",
     "TestNG.GetBookingDetails_01.getBookingDetails.executor": "Run",
+    "TestNG.GetBookingDetails_01_NotWorking.getBookingDetails.executor": "Run",
     "TestNG.GetBookingId.createBooking.executor": "Run",
     "TestNG.GetToken.getToken.executor": "Run",
     "TestNG.GetToken_CreateUser.createBooking.executor": "Run",
@@ -108,7 +112,7 @@
     "TestNG.PatchBookingDetails.patchBooking.executor": "Run",
     "TestNG.PatchBookingDetails_03_NotWorking.executor": "Run",
     "TestNG.PatchBookingDetails_03_NotWorking.getBookingDetailsAfterPatch.executor": "Run",
-    "TestNG.PatchBookingDetails_03_NotWorking.patchBooking.executor": "Debug",
+    "TestNG.PatchBookingDetails_03_NotWorking.patchBooking.executor": "Run",
     "TestNG.PatchUserDetails.patchUserDetails.executor": "Run",
     "TestNG.ReqResAPI.createUser.executor": "Run",
     "TestNG.ReqResAPI.getAllUsers.executor": "Run",
@@ -123,12 +127,14 @@
     "TestNG.TestNG003.executor": "Run",
     "TestNG.TestNG006.broswerStart.executor": "Run",
     "TestNG.TestNG006.startBrowser.executor": "Run",
+    "TestNG.TestNG006_NotWorking.startBrowser.executor": "Run",
     "TestNG.TestNG007.executor": "Run",
     "TestNG.TestNG007.getBookingId.executor": "Run",
     "TestNG.TestNG008.TC01.executor": "Run",
     "TestNG.TestWithToken.createUser.executor": "Run",
     "TestNG.TestWithToken.createUser1.executor": "Run",
     "TestNG.UpdateBookingAfterDelete_06.updateBookingAfterDelete.executor": "Run",
+    "TestNG.UpdateBookingAfterDelete_06_NotWorking.updateBookingAfterDelete.executor": "Run",
     "TestNG.Verification01.verify_Date.executor": "Debug",
     "TestNG.Verification01.verify_File.executor": "Run",
     "git-widget-placeholder": "master",
@@ -145,22 +151,44 @@
       <recent name="C:\Users\Neeru\IdeaProjects\APIAutomationRestAssured\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ex22092024.SelfPaced.UsingIText" />
+      <recent name="Ex22092024.Assignment.Assignment01" />
       <recent name="Ex22092024.Assignment.Assignment03" />
       <recent name="Ex22092024.Assignment.Assignment02" />
       <recent name="Ex21092024.TestNGEx" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetBookingDetails_01_NotWorking.getBookingDetails">
-    <configuration name="GetBookingDetails_01_NotWorking.getBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml">
+    <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng04.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBookingDetails.getBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment01.*" />
+          <option name="PATTERN" value="Ex22092024.SelfPaced.UsingIText.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment01" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment01.GetBookingDetails_01_NotWorking" />
+      <option name="PACKAGE_NAME" value="Ex22092024.SelfPaced.UsingIText" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.UsingIText.GetBookingDetails" />
       <option name="METHOD_NAME" value="getBookingDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -169,34 +197,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatchBookingDetails_03_NotWorking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG006_NotWorking.startBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment03.*" />
+          <option name="PATTERN" value="Ex21092024.TestNGEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment03" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment03.PatchBookingDetails_03_NotWorking" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PatchBookingDetails_03_NotWorking.getBookingDetailsAfterPatch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment03" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment03.PatchBookingDetails_03_NotWorking" />
-      <option name="METHOD_NAME" value="getBookingDetailsAfterPatch" />
+      <option name="PACKAGE_NAME" value="Ex21092024.TestNGEx" />
+      <option name="MAIN_CLASS_NAME" value="Ex21092024.TestNGEx.TestNG006_NotWorking" />
+      <option name="METHOD_NAME" value="startBrowser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -204,25 +215,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatchBookingDetails_03_NotWorking.patchBooking" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment03" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment03.PatchBookingDetails_03_NotWorking" />
-      <option name="METHOD_NAME" value="patchBooking" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateBookingAfterDelete_06_NotWorking.updateBookingAfterDelete" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateBookingAfterDelete_06.updateBookingAfterDelete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -231,7 +224,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment0246" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment0246.UpdateBookingAfterDelete_06_NotWorking" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment0246.UpdateBookingAfterDelete_06" />
       <option name="METHOD_NAME" value="updateBookingAfterDelete" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -242,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetBookingDetails_01_NotWorking.getBookingDetails" />
-        <item itemvalue="TestNG.PatchBookingDetails_03_NotWorking" />
-        <item itemvalue="TestNG.PatchBookingDetails_03_NotWorking.getBookingDetailsAfterPatch" />
-        <item itemvalue="TestNG.UpdateBookingAfterDelete_06_NotWorking.updateBookingAfterDelete" />
-        <item itemvalue="TestNG.PatchBookingDetails_03_NotWorking.patchBooking" />
+        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" />
+        <item itemvalue="TestNG.GetBookingDetails.getBookingDetails" />
+        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml" />
+        <item itemvalue="TestNG.TestNG006_NotWorking.startBrowser" />
+        <item itemvalue="TestNG.UpdateBookingAfterDelete_06.updateBookingAfterDelete" />
       </list>
     </recent_temporary>
   </component>

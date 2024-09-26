@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="Commit">
+    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="De-Serialization">
+      <change afterPath="$PROJECT_DIR$/ConsolidatedTestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/RunXmlFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingId.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AssertJ_FluentAssertion.test_post.executor": "Run",
+    "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/ConsolidatedTestNG.xml.executor": "Run",
     "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
     "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml.executor": "Run",
     "TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng06.xml.executor": "Run",
@@ -144,10 +144,23 @@
       <recent name="Ex21092024.TestNGEx" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetBookingId.createBooking">
-    <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RunXmlFiles">
+    <configuration name="RunXmlFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.RunXmlFiles" />
       <module name="APIAutomationRestAssured" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng04.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex22092024.SelfPaced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/ConsolidatedTestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ConsolidatedTestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -201,31 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG006_NotWorking.startBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex21092024.TestNGEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex21092024.TestNGEx" />
-      <option name="MAIN_CLASS_NAME" value="Ex21092024.TestNGEx.TestNG006_NotWorking" />
-      <option name="METHOD_NAME" value="startBrowser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunXmlFiles" />
+        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/ConsolidatedTestNG.xml" />
         <item itemvalue="TestNG.GetBookingId.createBooking" />
         <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" />
         <item itemvalue="TestNG.GetBookingDetails.getBookingDetails" />
-        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml" />
-        <item itemvalue="TestNG.TestNG006_NotWorking.startBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727286235984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="De-Serialization">
+      <option name="closed" value="true" />
+      <created>1727350991663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727350991665</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,7 +290,8 @@
     <MESSAGE value="Logs" />
     <MESSAGE value="POJOClass" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="De-Serialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="De-Serialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

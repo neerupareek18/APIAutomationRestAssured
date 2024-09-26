@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T20:27:33 IST" name="All Test Suite" finished-at="2024-09-26T20:27:33 IST" duration-ms="314">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T20:27:33 IST" name="APIAutomationRestAssured-TestNGEx" finished-at="2024-09-26T20:27:33 IST" duration-ms="314">
+      <class name="Ex21092024.TestNGEx.TestNG01">
+        <test-method signature="TC01()[pri:0, instance:Ex21092024.TestNGEx.TestNG01@6f03482]" started-at="2024-09-26T20:27:33 IST" name="TC01" finished-at="2024-09-26T20:27:33 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- Ex21092024.TestNGEx.TestNG01 -->
+    </test> <!-- APIAutomationRestAssured-TestNGEx -->
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2024-09-26T20:27:33 IST" name="All Test Suite (0)" finished-at="2024-09-26T20:27:33 IST" duration-ms="22">
+    <groups>
+      <group name="dev">
+        <method signature="TestNG004.smokeTest(java.lang.String)[pri:0, instance:Ex21092024.TestNGEx.TestNG004@4e50c791]" name="smokeTest" class="Ex21092024.TestNGEx.TestNG004"/>
+      </group> <!-- dev -->
+    </groups>
+    <test started-at="2024-09-26T20:27:33 IST" name="APIAutomationRestAssured-TestNGEx" finished-at="2024-09-26T20:27:33 IST" duration-ms="22">
+      <class name="Ex21092024.TestNGEx.TestNG004">
+        <test-method signature="smokeTest(java.lang.String)[pri:0, instance:Ex21092024.TestNGEx.TestNG004@4e50c791]" started-at="2024-09-26T20:27:33 IST" name="smokeTest" finished-at="2024-09-26T20:27:33 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+      </class> <!-- Ex21092024.TestNGEx.TestNG004 -->
+    </test> <!-- APIAutomationRestAssured-TestNGEx -->
+  </suite> <!-- All Test Suite (0) -->
+</testng-results>

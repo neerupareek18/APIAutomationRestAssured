@@ -62,6 +62,9 @@ public class GetBookingId {
     String resId = rp.getBookingid();
     System.out.println(resId);
 
+    String firstname = rp.getBooking().getFirstname();
+    System.out.println("Firstname after de-serialization -- " + firstname);
+
     context.setAttribute("id",bookingId);
 
     }

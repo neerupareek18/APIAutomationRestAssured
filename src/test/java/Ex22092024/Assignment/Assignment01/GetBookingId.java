@@ -39,7 +39,10 @@ public class GetBookingId {
         ResponsePojo rp = g.fromJson(string_response,ResponsePojo.class);
 
         String resId = rp.getBookingid();
-        System.out.println(resId);
+        System.out.println("ID after de-serialization -- " + resId);
+
+        String firstname = rp.getBooking().getFirstname();
+        System.out.println("FirstName after de-serialisation --" + firstname);
 
         return bookingId;
     }

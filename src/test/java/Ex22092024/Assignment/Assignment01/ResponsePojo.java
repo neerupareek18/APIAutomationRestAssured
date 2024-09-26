@@ -2,13 +2,13 @@ package Ex22092024.Assignment.Assignment01;
 
 public class ResponsePojo {
     private String bookingid;
-    private CreateBookingRequest booking;
+    private BookingPojo booking;
 
-    public CreateBookingRequest getBooking() {
+    public BookingPojo getBooking() {
         return booking;
     }
 
-    public void setBooking(CreateBookingRequest booking) {
+    public void setBooking(BookingPojo booking) {
         this.booking = booking;
     }
 

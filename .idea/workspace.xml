@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="POJOClass">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingDetails_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingId.java" afterDir="false" />
+    <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/putRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/putRequest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/AssertJ_FluentAssertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions_ParametersNotFetching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions_ParametersNotFetching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG006_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/TestNGEx/TestNG006_NotWorking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingDetails_01_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetBookingId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/GetToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment01/ResponsePojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/GetBookingId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/UpdateBookingAfterDelete_06_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment0246/UpdateBookingAfterDelete_06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment03/PatchBookingDetails_03_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/Assignment/Assignment03/PatchBookingDetails_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng06.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/UsingIText/GetBookingId.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +144,7 @@
       <recent name="Ex21092024.TestNGEx" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml">
+  <component name="RunManager" selected="TestNG.GetBookingId.createBooking">
     <configuration name="C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng04.xml" />
@@ -197,6 +183,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetBookingId.createBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex22092024.SelfPaced.UsingIText.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex22092024.SelfPaced.UsingIText" />
+      <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.UsingIText.GetBookingId" />
+      <option name="METHOD_NAME" value="createBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNG006_NotWorking.startBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
@@ -215,31 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateBookingAfterDelete_06.updateBookingAfterDelete" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex22092024.Assignment.Assignment0246.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.Assignment.Assignment0246" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.Assignment.Assignment0246.UpdateBookingAfterDelete_06" />
-      <option name="METHOD_NAME" value="updateBookingAfterDelete" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetBookingId.createBooking" />
         <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" />
         <item itemvalue="TestNG.GetBookingDetails.getBookingDetails" />
         <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng04.xml" />
         <item itemvalue="TestNG.TestNG006_NotWorking.startBrowser" />
-        <item itemvalue="TestNG.UpdateBookingAfterDelete_06.updateBookingAfterDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726640781737</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1727286235983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727286235984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,7 +286,8 @@
     <MESSAGE value="SelfPacedPractice -- Cookies, Headers, Token, JSONObject and Path parsing" />
     <MESSAGE value="Logs" />
     <MESSAGE value="POJOClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="POJOClass" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

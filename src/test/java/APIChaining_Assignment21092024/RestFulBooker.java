@@ -26,7 +26,7 @@ public class RestFulBooker {
     Response r;
     ValidatableResponse vr;
     String token;
-    String bookingid;
+    public String bookingid;
 
 @Test
     public void getToken(){

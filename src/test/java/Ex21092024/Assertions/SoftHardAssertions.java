@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class SoftHardAssertions_ParametersNotFetching {
+public class SoftHardAssertions {
 
     @Test
     public void TC001(){
@@ -22,7 +22,7 @@ public class SoftHardAssertions_ParametersNotFetching {
         System.out.println("This line will be executed even after failed assertion -- Soft Assertion");
 
         RestFulBooker rfb = new RestFulBooker();
-//        rfb.bookingid;
+        String bookingid = rfb.bookingid;
         Assert.assertTrue(name.contains("Neeru"));
     }
 }

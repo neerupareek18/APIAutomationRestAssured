@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e653d1e5-31bd-41c0-bacd-c0c89ccc879b" name="Changes" comment="De-Serialization">
-      <change afterPath="$PROJECT_DIR$/ConsolidatedTestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex22092024/SelfPaced/RunXmlFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_28092024/CreateRequestForSchool_ArrayOfObjectNotFetching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_28092024/StudentArrayRequestPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelfPacedPractice_28092024/StudentRequestPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/RestFulBooker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APIChaining_Assignment21092024/RestFulBooker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/HemcrestAssertions_NotWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/HemcrestAssertions_NotWorking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions_ParametersNotFetching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex21092024/Assertions/SoftHardAssertions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +76,7 @@
     "TestNG.CookiesDemo.verifyCookieExistence.executor": "Run",
     "TestNG.CookiesDemo.verifySingleCookieValue.executor": "Run",
     "TestNG.CreateBookingRequest.bookingRequest.executor": "Run",
+    "TestNG.CreateRequestForSchool.createRequest.executor": "Run",
     "TestNG.CreateToken.createToken.executor": "Run",
     "TestNG.CreateUser.getAllUsers.executor": "Run",
     "TestNG.ExJSONObject.createToken.executor": "Run",
@@ -144,7 +149,7 @@
       <recent name="Ex21092024.TestNGEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunXmlFiles">
+  <component name="RunManager" selected="TestNG.CreateRequestForSchool_ArrayOfObjectNotFetching.createRequest">
     <configuration name="RunXmlFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.RunXmlFiles" />
       <module name="APIAutomationRestAssured" />
@@ -178,17 +183,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookingDetails.getBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateRequestForSchool_ArrayOfObjectNotFetching.createRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex22092024.SelfPaced.UsingIText.*" />
+          <option name="PATTERN" value="SelfPacedPractice_28092024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Ex22092024.SelfPaced.UsingIText" />
-      <option name="MAIN_CLASS_NAME" value="Ex22092024.SelfPaced.UsingIText.GetBookingDetails" />
-      <option name="METHOD_NAME" value="getBookingDetails" />
+      <option name="PACKAGE_NAME" value="SelfPacedPractice_28092024" />
+      <option name="MAIN_CLASS_NAME" value="SelfPacedPractice_28092024.CreateRequestForSchool_ArrayOfObjectNotFetching" />
+      <option name="METHOD_NAME" value="createRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -216,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateRequestForSchool_ArrayOfObjectNotFetching.createRequest" />
         <item itemvalue="Application.RunXmlFiles" />
         <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/ConsolidatedTestNG.xml" />
         <item itemvalue="TestNG.GetBookingId.createBooking" />
         <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/APIAutomationRestAssured/testng.xml" />
-        <item itemvalue="TestNG.GetBookingDetails.getBookingDetails" />
       </list>
     </recent_temporary>
   </component>
